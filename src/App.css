@@ -39,6 +39,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin:10px;
 
 }
 
@@ -56,4 +57,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer-style {
+  background-color: lightgray;
+  height: 100px;
+  padding: 5px;
+  color: gray;
+
+}
+a {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+/* unvisited link */
+a:link {
+  color: none !important;
+}
+
+/* visited link */
+a:visited {
+  color: none !important;
+}
+
+/* mouse over link */
+a:hover {
+  color: none !important;
+}
+
+/* selected link */
+a:active {
+  color: none !important;
+}
+.card-style{
+  cursor: "pointer";
+}
+.card-style:hover {
+  background-color: gray;
+  color: white;
+  cursor: "pointer";
 }
